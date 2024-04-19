@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #a34caf;
+    border: 2px solid #000;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .5s all ease-in;
+}
+
+button:hover {
+    background-color: #000;
+    color: #a34caf;
+    border: 2px solid #a34caf;
+
+}
+.txt{
+    color: #a34caf;
+}
+.txt-love{
+    color: #a61616;
+}
+.img-love img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    cursor: pointer;
+    transition: all .4s ease-in;
+}
+.img-love img:hover{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px double #a61616;
+}
